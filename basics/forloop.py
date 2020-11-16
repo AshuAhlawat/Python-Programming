@@ -13,19 +13,18 @@ names=["Swakshwar Ghosh","Gaurav Patel","Ashwani Ahlawat","Ankit Kumar"]
 usernames=[]
 for name in names:
     usernames.append(name.lower().replace(" ","_"))
-    print(usernames)
+print(usernames)
 
 for i in range(len(names)):
     names[i]=names[i].lower().replace(" ","_")
-    print(names)
-    
+print(names)
+
 #converting user names into name
 given_username=["swakshwar_ghosh","ashwani_ahlawat","gaurav_patel","ankit_kumar"]
 names=[]
 for name in given_username:
     names.append(name.title().replace("_"," "))
-    print(names)
-    
+print(names)
     #making a word counter in from a name of a book
 name_of_the_book=['the','great','expidition','of','the','great','alexander']
 word_counter={}
@@ -34,4 +33,4 @@ for word in name_of_the_book:
         word_counter[word]=1
     else:
         word_counter[word] += 1
-    print(word_counter)
+print(word_counter)
