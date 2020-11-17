@@ -1,13 +1,15 @@
 cast = {
-           "Jerry Seinfeld": "Jerry Seinfeld",
-           "Julia Louis-Dreyfus": "Elaine Benes",
-           "Jason Alexander": "George Costanza",
-           "Michael Richards": "Cosmo Kramer"
-       }
+    "Jerry Seinfeld": "Jerry Seinfeld",
+    "Julia Louis-Dreyfus": "Elaine Benes",
+    "Jason Alexander": "George Costanza",
+    "Michael Richards": "Cosmo Kramer"
+}
 
-print ("iterating through keys : ")
+print("iterating through keys : ")
 
-for key in cast :
+for key in cast:
     print(key)
-    
-print("\n iterating through keys and values") 
+
+print("\n iterating through keys and values")
+for key, value in cast.items():
+    print("Actor : {}     Role: {}" .format(key, value))
