@@ -34,3 +34,10 @@ for word in name_of_the_book:
     else:
         word_counter[word] += 1
 print(word_counter)
+
+#factorial using for loops
+number=6
+product=1
+for i in range(2,number+1):
+    product=product*i
+print(product)
