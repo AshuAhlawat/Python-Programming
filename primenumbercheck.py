@@ -4,5 +4,5 @@ for number in check_prime:
         if (number % i) == 0:
             print("{} is NOT a prime number, because {} is a factor of {}".format(number, i, number))
             break
-        if i==number-1:
+        elif i==number-1:
             print("{} is a prime number".format(number))
