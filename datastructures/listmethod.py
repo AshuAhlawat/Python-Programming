@@ -4,7 +4,7 @@ price_of_items = ['10', '8', '16', '20']
 
 print("List of the items in list format: " + str(list_of_items))
 
-print("Price of items in kist format: " + str(price_of_items))
+print("Price of items in list format: " + str(price_of_items))
 
 # above is just to show the the list
 
