@@ -16,3 +16,8 @@ p1.myfunc()
 p2.myfunc()
 p3.myfunc()
 p4.myfunc()
+p1.section="KOCQB-G1"
+p1.myfunc()
+
+class teacher:
+    pass
