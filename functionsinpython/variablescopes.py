@@ -36,3 +36,4 @@ def green():
     yellow()
     print(a)
 green()
+# the above given function is a nonlocal keywords in python
