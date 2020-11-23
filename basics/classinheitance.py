@@ -51,4 +51,3 @@ p1 = alias_age("ashwani", "ahlawat", 2024, 18)
 p2 = alias_age("gaurav", "patel", 2024, 18)
 print(p2.alias_age_method())
 print(p1.alias_age_method())
-
