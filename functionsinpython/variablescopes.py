@@ -25,3 +25,14 @@ def red():
     print(a)
 red()
 # in the above function red and blue is enclosing function
+
+def green():
+    a=4
+    def yellow():
+        nonlocal a 
+        a=7
+        b=8
+        print(b)
+    yellow()
+    print(a)
+green()
