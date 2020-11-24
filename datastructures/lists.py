@@ -1,5 +1,5 @@
 list = [1,  4.6, 'python', False] 
-#       0     1        2            3    <----- these are the index values
+#       0     1        2            3    <=== these are the index values
 
 list[1] = 5.5
 
