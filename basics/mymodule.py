@@ -1,2 +1,6 @@
-def greetings(name):
-    print("welcome, "+ name)
+person1={
+"name":"Ashwani",
+"age":18,
+"country":"India"
+}
+
