@@ -1,7 +1,9 @@
-import mymodule
-a=mymodule.person1["age"]
-b=mymodule.person1["name"]
-c=mymodule.person1["country"]
+import mymodule as mx
+a=mx.person1["age"]
+b=mx.person1["name"]
+c=mx.person1["country"]
+d=dir(mx)
+print(d)
 print(a)
 print(b)
 print(c)
