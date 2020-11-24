@@ -1,3 +1,4 @@
+#By this 
 from mymodule import person1
 import mymodule as mx
 a = mx.person1["age"]
