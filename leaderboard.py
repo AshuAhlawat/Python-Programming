@@ -10,11 +10,14 @@
 num_of_students=int(input("Enter the Number of the students: "))
 num=[]
 for i in range(1,num_of_students+1):
-    number=int(input("Enter the marks of {} student: ".format(i)))
+    number=int(input("Enter the marks of No.{} student: ".format(i)))
     num.append(number)
 num.sort(reverse=True)
 str_num_of_quantity=str(num_of_students)
+y=1
 for i in num:
-    for n in range(1,int(num_of_students)):
-        
-        print(i)
+    i_str=str(i)
+    print(i_str+" rank: "+str(y))
+    y=y+1
+# 100 rank 1
+# 80  rank 2
