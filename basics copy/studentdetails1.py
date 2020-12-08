@@ -1,6 +1,0 @@
-f=open("student details.txt","r+")
-g=f.readlines()
-removed_list=g.pop(2)
-print(removed_list)
-print(g)
-f.write(g)
