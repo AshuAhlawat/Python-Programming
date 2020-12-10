@@ -22,7 +22,8 @@ print(newarr)
 
 arr1=np.array([1,2,3,4,5,6,7])
 fil_arr1=arr1%2==0
+fil_arr2=arr1>3
 newarr=arr1[fil_arr1]
-
+newarr=arr1[fil_arr2]
 print(fil_arr1)
 print(newarr)
