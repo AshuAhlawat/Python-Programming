@@ -7,8 +7,6 @@ import seaborn as sns
 
 # size - The shape of the returned array.
 
-x=random.zipf(a=2,size=(2,3))
-print(x)
-
-sns.distplot(x)
+x=random.zipf(a=2,size=1000)
+sns.distplot(x[x<10],kde=False)
 plt.show()
