@@ -3,7 +3,7 @@ class shape():
         self.area = area
 
     def __add__(self, p):
-        return self.area+p.area
+        return shape(self.area+p.area)
 
     def __gt__(self, p):
         return self.area > p.area
@@ -21,7 +21,7 @@ class shape():
         return self.area <= p.area
 
     def __str__(self):
-        return self.area
+        return str(self.area)
 
 
 class triangle(shape):
@@ -132,6 +132,8 @@ if __name__ == '__main__':
                 cya = p.area()
             elif(z == 'N' or z == 'n'):
                 cyp = p.perimeter()
-    add=shape(ta)
-    add1=shape(ra)
-    print(add+add1)
+    x=shape(ta)+shape(ra)+shape(cia)+shape(cya)
+    
+    print(x)
+    
+    
