@@ -1,1 +1,0 @@
-x.correct_regd(12018777)

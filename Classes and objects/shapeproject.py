@@ -75,7 +75,7 @@ class cylinder(shape):
 
 if __name__ == '__main__':
     r0 = int(input("No. of items to calc. perimeter or area: "))
-    
+
     ta = 0
     ra = 0
     cia = 0
@@ -84,7 +84,7 @@ if __name__ == '__main__':
     rp = 0
     cip = 0
     cyp = 0
-    
+
     for i in range(r0):
         print("Enter 1 for triangle,2 for square or rectangle,3 for circle,4 for cylinder")
         x = int(input("Enter a number 1 to 4: "))
@@ -132,8 +132,6 @@ if __name__ == '__main__':
                 cya = p.area()
             elif(z == 'N' or z == 'n'):
                 cyp = p.perimeter()
-    x=shape(ta)+shape(ra)+shape(cia)+shape(cya)
-    
+    x = shape(ta)+shape(ra)+shape(cia)+shape(cya)
+
     print(x)
-    
-    
