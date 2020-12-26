@@ -15,7 +15,6 @@ class stud():
 
 x=stud('ashu',12016043,'KOCQB','Btech-CSE(DATA SCIENCE)','LPU,Phagwara,Punjab')
 y=stud('Gaurav','12014982','KOCQB','Btech-CSE(DATA SCIENCE)','LPU,Phagwara')
-# x.correct_regd(12018777)
-# x.call()
-# y.call()
-print(x+y)
+x.correct_regd(12018777)
+x.call()
+y.call()
