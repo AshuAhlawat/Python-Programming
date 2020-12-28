@@ -2,7 +2,7 @@ import pandas as pd
 df = pd.read_csv('Python Programming\Modules\Pandas\data.csv')
 # print(df)
 df1 = df.to_string()
-# print(df1)
+print(df1)
 
 # analyzing
 print(df.head(3))
