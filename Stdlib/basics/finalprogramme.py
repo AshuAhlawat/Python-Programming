@@ -6,7 +6,7 @@ menu = int(input(
 # ENTRY OF DATA
 if menu == 1:
     print("\n\n->Enter Data\n")
-    f = open("lpu.txt", "a+")
+    f = open("D:/Coding/Python Programming/Stdlib/basics/lpu.txt", "a+")
     lines = f.readlines()
 
     switch = 1
@@ -40,7 +40,7 @@ if menu == 2:
     view_menu = int(input(
         ("\n\n->View Data\n\n(1)View particular student\n(2)View all students\n  : ")))
     if view_menu == 1:
-        f = open("lpu.txt", "r")
+        f = open("D:/Coding/Python Programming/Stdlib/basics/lpu.txt", "r")
         lines = f.readlines()
 
         switch = 0
@@ -58,7 +58,7 @@ if menu == 2:
         f.close()
 
     if view_menu == 2:
-        f = open("lpu.txt", "r")
+        f = open("D:/Coding/Python Programming/Stdlib/basics/lpu.txt", "r")
         lines = f.readlines()
         lines.sort()
         print("\n")
@@ -72,7 +72,7 @@ if menu == 3:
         "\n\n->Delete Data\n\n(1)Delete Particular data \n(2)Delete all Data\n  : "))
 
     if delete_menu == 1:
-        f = open("lpu.txt", "r")
+        f = open("D:/Coding/Python Programming/Stdlib/basics/lpu.txt", "r")
         lines = f.readlines()
         f.close()
 
@@ -92,7 +92,7 @@ if menu == 3:
 
         cmfn = str(input("\nAre you totally sure?(y/n) : "))
         if cmfn == "y":
-            f = open("lpu.txt", "w")
+            f = open("D:/Coding/Python Programming/Stdlib/basics/lpu.txt", "w")
             f.write(" ")
             f.close()
             print("\nSucessfully Deleted.")
