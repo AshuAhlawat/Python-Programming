@@ -81,8 +81,9 @@ if menu == 3:
 
         index_to_remove = int(input("Enter index number: "))
         del lines[index_to_remove]
-
-        f_n = open("lpu.txt", "w+")
+        
+        f_n = open("D:/Coding/Python Programming/Stdlib/basics/lpu.txt", "w+")
+        f_n.write(" ")
         for line in lines:
             f_n.write(line)
 
@@ -92,7 +93,8 @@ if menu == 3:
 
         cmfn = str(input("\nAre you totally sure?(y/n) : "))
         if cmfn == "y":
-            f = open("D:/Coding/Python Programming/Stdlib/basics/lpu.txt", "w")
+            f = open("D:/Coding/Python Programming/Stdlib/basics/lpu.txt", "w+")
+            
             f.write(" ")
             f.close()
             print("\nSucessfully Deleted.")
