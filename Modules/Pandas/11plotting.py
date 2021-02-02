@@ -1,10 +1,10 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('Python Programming\Modules\Pandas\datacleaningdemo.csv')
+df = pd.read_csv('D:\Coding\economy.csv')
 
-df.plot(kind='scatter',x='Duration',y='Calories')
+df.plot(kind='scatter')
 plt.show()
 
-df.plot(kind='hist',x='Duration',y='Maxpulse')
-plt.show()
+# df.plot(kind='hist')
+# plt.show()
