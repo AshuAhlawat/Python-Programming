@@ -19,7 +19,7 @@ print(my_string2 .count("round"))
 
 x= my_string .find("fox") +1
 
-print(my_string .slice(x))
+#print(my_string .slice(x))
 
 print(my_string .split('  ',1))
 
