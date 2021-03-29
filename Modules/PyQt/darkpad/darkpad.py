@@ -135,7 +135,7 @@ class Ui_DarkPad(object):
         self.menuFile.setTitle(_translate("DarkPad", "File"))
         self.menuEdit.setTitle(_translate("DarkPad", "Edit"))
         self.menuFormat.setTitle(_translate("DarkPad", "Format"))
-        self.menuWeb.setTitle(_translate("DarkPad","Web"))
+        self.menuWeb.setTitle(_translate("DarkPad","Utility"))
         self.actionNew.setText(_translate("DarkPad", "New"))
         self.actionNew.setStatusTip(_translate("DarkPad", "Create a new file"))
         
@@ -165,8 +165,8 @@ class Ui_DarkPad(object):
         self.actionFont.setText(_translate("DarkPad","select Font"))
         self.actionFont.setStatusTip(_translate("Darkpad","Select Font And Size"))
         
-        self.actionLogin.setText(_translate("DarkPad","Login"))
-        self.actionLogin.setStatusTip(_translate("DarkPad","Login on Our Website for Saving Your Data In our Data Base"))
+        self.actionLogin.setText(_translate("DarkPad","Darkalc"))
+        self.actionLogin.setStatusTip(_translate("DarkPad","Click to Use Darkalc for basic calculation "))
         
         self.actionCopy.triggered.connect(self.editor.copy)
         self.actionPaste.triggered.connect(self.editor.paste)
@@ -227,8 +227,8 @@ class Ui_DarkPad(object):
             print("Display Fonts",font)
     
     def Login(self):
-        import webbrowser
-        webbrowser.open_new_tab('https://www.google.com')
+        import os 
+        os.system('python darkalcpro.py')
             
 if __name__ == "__main__":
     import sys
