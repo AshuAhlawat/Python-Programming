@@ -1,0 +1,13 @@
+import cv2
+import numpy as np
+
+img = cv2.imread('D:\Coding\Python Programming\Modules\OpenCV\yeet.jpg')
+
+c = 255/(np.log(1 + np.max(img)))
+
+log_transformed = c * np.log(1 + img)
+
+log_transformed = np.array(log_transformed , dtype = np.uint8)
+
+cv2.imshow('log_trans', log_transformed)
+cv2.waitKey(0)
