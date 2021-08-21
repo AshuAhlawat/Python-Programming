@@ -1,0 +1,1 @@
+#all test of Pygames belongs here
