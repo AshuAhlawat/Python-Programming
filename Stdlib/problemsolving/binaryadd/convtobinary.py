@@ -23,5 +23,3 @@ def allsame(binary):
         if first != binary[i]:
             return False
     return True
-
-print(dec2bin(76))
