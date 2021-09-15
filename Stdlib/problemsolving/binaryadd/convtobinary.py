@@ -8,7 +8,13 @@ def dec2bin(num):
         binary.append(rev_binary[i])
     if (allsame(binary)):
         binary.insert(0,1)
-    print(*binary)
+
+    x = ''
+    for i in range(len(binary)):
+        j = str(binary[i])
+        x+=j
+    x= int(x)
+    return x
     
 
 def allsame(binary):    
@@ -17,3 +23,5 @@ def allsame(binary):
         if first != binary[i]:
             return False
     return True
+
+print(dec2bin(76))
